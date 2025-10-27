@@ -12,11 +12,7 @@ import Store from '../store';
 import { IpcEvents } from '@nuclear/core';
 
 const urlMapper: Record<Env, string> = {
-  [Env.DEV]: url.format({
-    pathname: 'localhost:8080',
-    protocol: 'http:',
-    slashes: true
-  }),
+  [Env.DEV]: 'http://localhost:8080',
   [Env.PROD]: url.format({
     pathname: path.join(__dirname, 'index.html'),
     protocol: 'file:',

@@ -24,6 +24,8 @@ import VisualizerNode from '../VisualizerContainer/VisualizerNode';
 import DeezerPlaylistAdapter from '../DeezerPlaylistAdapter';
 import { ListeningHistoryContainer } from '../ListeningHistoryContainer';
 import { SpotifyPlaylistAdapter } from '../SpotifyPlaylistAdapter';
+import AudiobookContainer from '../AudiobookContainer';
+
 
 class MainContentContainer extends React.Component {
   componentDidMount() {
@@ -60,6 +62,7 @@ class MainContentContainer extends React.Component {
               <Route path='/visualizer' component={VisualizerNode} />
               <Route path='/library' component={LibraryViewContainer} />
               <Route path='/listening-history' component={ListeningHistoryContainer} />
+              <Route path='/audiobooks' component={AudiobookContainer} />
             </Switch>
           </MainLayout>
         );

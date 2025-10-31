@@ -487,6 +487,11 @@ exports[`Dashboard container should display top tracks after going to top tracks
           >
             Genres
           </a>
+          <a
+            class="item"
+          >
+            Audiobooks
+          </a>
         </div>
         <div
           class="ui segment active tab popular_tracks_tab"

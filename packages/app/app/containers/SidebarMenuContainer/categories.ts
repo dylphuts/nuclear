@@ -23,7 +23,8 @@ export default [
       { name: 'settings', path: 'settings', icon: 'cog' },
       { name: 'equalizer', path: 'equalizer', icon: 'align right' },
       { name: 'visualizer', path: 'visualizer', icon: 'tint' },
-      { name: 'listening-history', path: 'listening-history', icon: 'history' }
+      { name: 'listening-history', path: 'listening-history', icon: 'history' },
+      { name: 'Audiobooks', path: 'audiobooks', icon: 'flask'}
     ]
   }, {
     name: 'collection',
